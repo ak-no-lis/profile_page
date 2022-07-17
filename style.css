@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: #0093d0;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px 20px;
+}
+
+h2 {
+    color: gray;
+    border-left: solid 5px #0093d0;
+    padding: 0 10px;
+    margin: 10px 20px;
+}
+
+p {
+    padding: 5px 20px;
+}
