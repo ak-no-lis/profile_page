@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic,"游ゴシック体", "ヒラギノ角ゴ pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+
 h1 {
     background-color: #0093d0;
     color: white;
