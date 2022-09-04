@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic,"游ゴシック体", "ヒラギノ角ゴ pro W3", sans-serif;
+    line-height: 2;
+    color: #432;
+    background-color: rgb(223, 255, 254);
+}
+/* ヘッダー
+------------------------------------ */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0093d0;
+    height: 115px;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+header h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 18px;
+}
+header p {
+    padding: 0px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.old-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.old-nav li {
+    margin-left: 36px;
+}
+.old-nav a {
+    color: aliceblue;
+}
+.old-nav a:hover {
+    color: rgb(0, 0, 255);
+}
+
+/* メイン
+------------------------------------ */
+
+img {
+    width: 400;
+    height: 300px;
+    object-fit: cover;
+    margin: 50px 20px;
+}
+
+h2 {
+    color: gray;
+    border-left: 5px solid #0093d0;
+    padding: 0 10px;
+    margin: 30px 20px;
+}
+.profile {
+    display: flex;
+}
+
+.profile ul {
+    margin: 50px 100px;
+}
+.profile img {
+    width: 300px;
+    height: 400px;
+}
+.profile p {
+    color: red;
+    font-size: 25px;
+    margin: 10px 0;
+    padding: 0;
+}
+p {
+    padding: 5px 20px;
+}
+
+.prologue p {
+    font-size: 20px;
+    color: #f37053;
+    margin: 30px 0;
+}
+
+h3 {
+    color: red;
+    margin: 30px 20px;
+}
+
+
+
+/* フッター
+------------------------------------ */
+footer {
+    background-color: rgb(177, 245, 192);
+    text-align: center;
+    padding: 26px 0;
+    font-size: 0.875rem;
+}
+
+
+/* スマホ
+-------------------------------------*/
+@media (max-width: 600px) {
+    
+}
