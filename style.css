@@ -41,13 +41,13 @@ header p {
     margin-top: 34px;
     list-style: none;
 }
-.old-nav li {
+.main-nav li {
     margin-left: 36px;
 }
-.old-nav a {
+.main-nav a {
     color: aliceblue;
 }
-.old-nav a:hover {
+.main-nav a:hover {
     color: rgb(0, 0, 255);
 }
 
