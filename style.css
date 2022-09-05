@@ -34,7 +34,7 @@ header p {
     text-align: center;
 }
 
-.old-nav {
+.main-nav {
     display: flex;
     font-size: 1.25rem;
     text-transform: uppercase;
