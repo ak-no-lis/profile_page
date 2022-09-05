@@ -112,24 +112,54 @@ footer {
 }
 
 
-/* スマホ
+/* モバイル版
 -------------------------------------*/
 @media (max-width: 600px) {
+
+    /* HEADER */
+    header {
+        width: 100;
+        height: 100%;
+    }
     .page-header {
         flex-direction: column;
         align-items: center;
-        height: 150px;
     }
     header h1 {
-        flex-direction: column;
-        font-size: 1.75rem;
+        text-align: center;
+        line-height: 1.4;
+        margin-top: 10px;
     }
 
-    .old-nav {
-        font-size: 0.5rem;
+    .main-nav {
+        font-size: 60%;
+        margin: 10px 0;
     }
+
+    .main-nav li {
+        margin: 0 20px;
+    }
+
+    /* PROFILE */
     .profile {
         flex-direction: column;
         align-items: center;
     }
+    .profile img {
+        text-align: center;
+        width: 80%;
+        height: 80%;
+    }
+    .profile ul {
+        margin: 0;
+    }
+    img {
+        text-align: center;
+        width: 80%;
+        height: 80%;
+    }
+
+
+    /* PROLOGUE */
+
 }
