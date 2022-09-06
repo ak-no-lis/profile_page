@@ -100,8 +100,6 @@ h3 {
     margin: 30px 20px;
 }
 
-
-
 /* フッター
 ------------------------------------ */
 footer {
@@ -138,7 +136,7 @@ footer {
     }
 
     .main-nav li {
-        margin: 0 20px;
+        margin: 0 10px;
     }
 
     /* PROFILE */
@@ -148,19 +146,23 @@ footer {
     }
     .profile img {
         text-align: center;
-        width: 80%;
-        height: 80%;
     }
     .profile ul {
         margin: 0;
     }
+    .profile p {
+        margin: 0;
+    }
     img {
         text-align: center;
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
     }
-
-
-    /* PROLOGUE */
-
+    h2 {
+        padding-left: 10px;
+        margin: 10px 0;
+    }
+    p {
+        padding: 0;
+    }
 }
