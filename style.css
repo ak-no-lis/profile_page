@@ -133,6 +133,7 @@ footer {
     .main-nav {
         font-size: 60%;
         margin: 10px 0;
+        text-align: center;
     }
 
     .main-nav li {
