@@ -34,9 +34,6 @@ header p {
     font-size: 22px;
     text-align: center;
 }
-header li {
-    vertical-align: middle;
-}
 .main-nav {
     display: flex;
     font-size: 1.25rem;
@@ -104,6 +101,23 @@ h3 {
     color: red;
     margin: 30px 20px;
 }
+
+.under-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin: 20px 30px;
+    list-style: none;
+}
+.under-nav li {
+    margin-left: 36px;
+}
+.under-nav a {
+    color: rgba(0, 0, 0, 0.398);
+}
+.under-nav a:hover {
+    color: rgb(0, 0, 255);
+}
 /* フッター
 ------------------------------------ */
 footer {
@@ -135,7 +149,6 @@ footer {
     .main-nav {
         font-size: 60%;
         margin: 10px 0;
-        text-align: center;
     }
 
     .main-nav li {
@@ -170,10 +183,12 @@ footer {
     p {
         padding: 0;
     }
-    #home ul {
+    .under-nav {
+        font-size: 60%;
+        margin: 10px 50px;
         justify-content: space-between;
-        align-items: center;
-        margin-left: 80px;
-        margin-right: 80px;
+    }
+    .under-nav li {
+        margin: 0 10px;
     }
 }
