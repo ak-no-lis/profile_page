@@ -183,6 +183,15 @@ footer {
     p {
         padding: 0;
     }
+    .birth {
+        margin-top: 30px;
+    }
+    .depravity {
+        margin-top: 30px;
+    }
+    .light {
+        margin-top: 30px;
+    }
     .under-nav {
         font-size: 60%;
         margin: 10px 50px;
